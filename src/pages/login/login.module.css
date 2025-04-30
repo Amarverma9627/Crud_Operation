@@ -1,0 +1,130 @@
+
+
+#signupWrapper {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5rem;
+}
+#signupWrapper .head{
+   text-align: center;
+   padding-bottom: 1rem;
+    font-size: 3rem;
+    letter-spacing: 0.09rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#signupWrapper>.signupContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45rem;
+}
+
+/* =========left-side======= */
+
+#signupWrapper>.signupContainer .signupRight {
+    /* box-shadow: 0 2px 2px black; */
+    box-shadow: -10px 10px 17px  -9px black;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 10px 0px 0px 10px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.signupContainer .signupRight h1 {
+    color: black;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    opacity: 0.6 ;
+}
+
+.signupContainer .signupRight .icons {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.signupContainer .signupRight p {
+    font-size: 1.3rem;
+    opacity: 0.6 ;
+}
+
+.signupContainer .signupRight .inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.signupContainer .signupRight .inputBox input {
+    border-radius: 4px;
+    padding: 1rem;
+    width: 22rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+.signupContainer .signupRight button{
+    background-color: #fb492c;
+    border-radius: 5rem;
+    border: 1px solid transparent;
+    padding: 0.8rem 3.7rem;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+/* ======:right-side======== */
+#signupWrapper>.signupContainer .signupLeft {
+    width: 30%;
+    height: 100%;
+    background:linear-gradient( 120deg,#fb492c, #e63579);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    border-radius: 0px 10px 10px 0px ;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    box-shadow: 10px 10px 12px -9px black;
+}
+
+#signupWrapper>.signupContainer .signupLeft h1 {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0rem;
+}
+
+#signupWrapper>.signupContainer .signupLeft p {
+    color: white;
+    font-size: 1.6rem;
+    width: 90%;
+    text-align: center;
+}
+
+#signupWrapper>.signupContainer .signupLeft button {
+    background-color: transparent;
+    border-radius: 5rem;
+    border: 1px solid white;
+    padding: 0.8rem 4rem;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#signupWrapper>.signupContainer .signupLeft button:hover {
+    background-color: rgba(109, 105, 105, 0.295);
+}
+
+

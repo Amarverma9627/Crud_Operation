@@ -1,0 +1,71 @@
+
+
+#navbar{
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(to right ,#fb492c,#ff4749);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 30px;
+}
+#navbar > h3,h2{
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+#navbar > ul{
+    display: flex;
+   gap: 30px;
+   list-style: none;
+}
+#navbar li{
+    padding:8px 18px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.signupbtn{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.signinbtn{
+    background-color: #fff;
+    color:black;
+    cursor: pointer;
+    
+}
+.signinbtn:hover{
+    background-color: rgba(253, 244, 244, 0.37);
+    color: white;
+}
+.menu{
+    border-radius: 50%;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.dropdown{
+    font-size: 14px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: -100px;
+    right: -30px;
+    background-color: rgba(238, 228, 228, 0.651);
+    color: black;
+    padding: 5px 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.596);
+    display: none;
+}
+.dropdown > li:hover{
+    background-color:rgba(82, 79, 79, 0.5) ;
+}
+.menu:hover .dropdown{
+    display: block;
+}
+
+

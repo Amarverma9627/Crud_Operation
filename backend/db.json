@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "6654",
+      "username": "Amar Verma",
+      "email": "amar@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "4a85",
+      "username": "Mukesh Ambani",
+      "email": "mukesh@gmail.com",
+      "password": "9627"
+    },
+    {
+      "id": "266f",
+      "username": "Ram",
+      "email": "ram@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "8f28",
+      "username": "jj",
+      "email": "jhhhjk",
+      "password": ""
+    }
+  ]
+}
